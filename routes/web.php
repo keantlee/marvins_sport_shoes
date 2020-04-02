@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/**
+ * Dashboard index page
+ */
+Route::get('/', 'dashboardController@index')->name('/');
+
+/**
+ * Product Page
+ */
+Route::get('/product-page', 'productController@item')->name('product-item');
+
+/**
+ * About Page
+ */
+Route::get('/product-page')->name('about');
+
