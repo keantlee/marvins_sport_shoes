@@ -9,12 +9,17 @@
 {{-- FAVICON --}}
 
 {{-- CUSTOMIZE CSS --}}
-<link rel="stylesheet" href="{{asset('/css/navbar.css')}}">
-<link rel="stylesheet" href="{{asset('/css/map.css')}}">
-<link rel="stylesheet" href="{{asset('/css/dataset_cards.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('/css/navbar.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('/css/verify.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('/css/login_register.css')}}">
+{{-- <link rel="stylesheet" type="text/css" href="assets/styles/shoe_cards.css"> --}}
+{{-- <link rel="stylesheet" type="text/css" href="assets/styles/services.css"> --}}
+{{-- <link rel="stylesheet" type="text/css" href="assets/styles/client_comment.css"> --}}
+{{-- <link rel="stylesheet" type="text/css" href="assets/styles/footer.css"> --}}
+{{-- <link rel="stylesheet" type="text/css" href="assets/styles/responsiveness.css"> --}}
 
 {{-- CUSTOMIZE JS --}}
-<script src="{{asset('/js/show_location_map.js')}}"></script>
+<script src="{{asset('/js/login_register.js')}}"></script>
 
 {{-- JQuery --}}
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
