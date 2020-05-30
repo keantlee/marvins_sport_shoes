@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 /**
  * Dashboard index page
@@ -29,4 +29,16 @@ Route::get('/product-page', 'productController@item')->name('product-item');
  * About Page
  */
 Route::get('/product-page')->name('about');
+
+
+Auth::routes(['verify' => true]);
+
+Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
+
+// Route::get('/login-register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+Route::get('/login-register', 'Auth\RegisterController@showRegistrationForm')->name('login_register');
+
+Route::get('/verification-successful', function(){
+    return view('email.email-verificationSuccess');
+});
 
