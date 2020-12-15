@@ -5,7 +5,7 @@
 </head>
 <body>
 	{{-- Header --}}
-	@include("layouts.index_header")
+	@include("layouts.navbar")
 
 
 	{{-- Main Contents --}}

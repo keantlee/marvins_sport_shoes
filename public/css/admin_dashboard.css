@@ -1,0 +1,68 @@
+.admin_dashboard_body{
+  background: linear-gradient(to right, #f4f5f7 0%, #d4d4d4 50%, #b4b6b6 74%);
+}
+
+.welcome {
+  color: #CCC;
+}
+
+.welcome .content {
+  background-color: #313348;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+.welcome h2 {
+  font-family: Calibri;
+  font-weight: 100;
+  margin-top: 0
+}
+
+.welcome p {
+  color: #999;
+}
+
+.card-table-dashboard{
+  background-color: rgb(255, 100, 39);
+  text-align: center;
+}
+
+.dashboard_card_products{
+  width: 100%;
+}
+
+.vertical-line{
+  border-left: 3px solid rgba(160, 154, 154, 0.281);
+  height: 100px;
+}
+
+.right-side-content{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  font-size: large;
+}
+
+.admin-dashboard-table{
+  text-align: center;
+}
+
+.admin_db_icons{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stats-title{
+  text-align: center;
+}
+
+.info-title{
+text-align: center;
+}
+
+.admin-card-title-table{
+  display: flex;
+  justify-content: space-between;
+}
