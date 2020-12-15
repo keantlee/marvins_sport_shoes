@@ -1,0 +1,46 @@
+/* .main-navbar{
+    background-color: rgba(240, 240, 240, 0);
+    background-image: linear-gradient(-90deg, rgba(153, 19, 19, 0.911), rgb(209, 10, 10));
+} */
+
+.nav-item a{
+    font-weight: bold;
+    color: black;
+}
+
+.sign-in-link{
+    color: gray;
+    font-weight: bold;
+}
+/* selected link */
+.sign-in-link:active {
+    color: gray;
+}
+
+/* hover link */
+.sign-in-link:hover{
+    color:gray;
+}
+
+/* visited link */
+.sign-in-link:visited {
+color: gray;
+}
+
+.sign-up-link{
+    color: gray;
+    font-weight: bold;
+}
+
+.sign-up-link:active{
+    color: gray;
+}
+
+.sign-up-link:hover{
+    color: gray;
+}
+
+.sign-up-link:visited{
+    color: gray;
+}
+

@@ -1,0 +1,11 @@
+.modal-header{
+    background-image: linear-gradient(315deg, #2e84ec 0%, #5378f1 0%, #197fd3 0%);
+}
+
+.modal-title{
+    color: white;
+}
+
+.modal-content .modal-btns{
+    border-radius: 20px;
+}

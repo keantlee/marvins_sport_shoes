@@ -1,0 +1,39 @@
+.sidebar-form{
+    margin-left: 50px;
+    margin-right: 50Px;
+}
+
+.list-group {
+    margin:auto;
+    float:left;
+    padding-top: 100px;
+   }
+
+  /* .accordion_btn--active{
+    display:block;
+    width: 50%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #333333;
+    color: #ffffff;
+    text-align: left;
+    transition: background 0.2;
+  } */
+
+.accordion-head i{
+  float: right;
+}
+
+a{
+  cursor: pointer;
+} 
+
+.accordion-head > .collapsed > i::before{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f101";
+  float: right;
+  transition: scale(1.5);
+}

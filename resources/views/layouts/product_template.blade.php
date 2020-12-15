@@ -5,9 +5,9 @@
 </head>
 <body>
 	{{-- Header --}}
-	@include("layouts.index_header")
+	@include("layouts.navbar")
 
-
+	@include("layouts.sidebar")
 	{{-- Main Contents --}}
 	@yield("contents")
 

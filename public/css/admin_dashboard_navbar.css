@@ -1,0 +1,18 @@
+.admin-dashboard-navbar{
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+}
+
+.admin-dashboard-header{
+    font-size: large;
+    font-weight: bold;
+}
+
+.admin-navbar-brand{
+    color: white;
+}
+
+.admin-navbar-ul .admin-nav-link{
+    color: white;
+}
+
+
