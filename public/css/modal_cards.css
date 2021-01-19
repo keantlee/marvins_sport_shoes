@@ -4,8 +4,15 @@
 
 .modal-title{
     color: white;
+    text-align: center;
 }
 
 .modal-content .modal-btns{
     border-radius: 20px;
+}
+
+/* delete modal */
+#delete_img{
+    width: 250px;
+    height: 250px;
 }

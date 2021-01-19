@@ -7,7 +7,7 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="bd-placeholder-img" src="/images/shoes/Jordan XXXI.png" alt="First slide">
+            <img class="bd-placeholder-img" src="/images/shoes/air jordan banned.jpg" alt="First slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1>AIR JORDAN XXXI</h1>
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="bd-placeholder-img" src="/images/shoes/Nike Kobe 5 Protro ‘Lakers’.jpg" alt="Second slide">
+            <img class="bd-placeholder-img" src="/images/shoes/zoom kobe.jpg" alt="Second slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style='color:gray'>NIKE KOBE 5 PROTO 'LARKERS'</h1>
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="bd-placeholder-img" src="/images/shoes/nike air max 1 dna ch1.jpg" alt="Third slide">
+            <img class="bd-placeholder-img" src="/images/shoes/adidas white shoe.jpg" alt="Third slide">
             <div class="container">
                 <div class="carousel-caption">
                     <h1 style='color:gray'>NIKE AIR MAX DNA CH.1</h1>
