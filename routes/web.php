@@ -26,7 +26,7 @@ Route::get('/home', 'dashboardController@index')->name('home');
 // Route::get('/product-page/all-products', 'ShoesController@show_allShoeItems')->name('all-product-item');
 // Route::get('/product-page/{id?}/{brand_name?}', 'ShoeController@show_brand_Items')->name('shoe-brand');
 
-Route::get('/product-page/jordan', 'ShoeController@jordan_Items')->name('jordan-shoe');
+Route::get('/home/product-page/jordan', 'ShoeController@jordan_Items')->name('jordan-shoe');
 // Route::get('/product-page/kobe', 'ShoeController@kobe_Items')->name('kobe-shoe');
 // Route::get('/product-page/nike', 'ShoeController@nike_Items')->name('nike-shoe');
 
@@ -36,18 +36,7 @@ Route::get('/product-page/jordan', 'ShoeController@jordan_Items')->name('jordan-
  */
   /*== Admin: Dashboard ==*/
     Route::get('/home/dashboard/admin/main', 'adminController@admin_dashboard')->name('admin-main');
-    Route::get('/home/dashboard/admin/product-inventory', 'adminController@admin_inventory')->name('admin-product-inventory');
-
-  /*==  Admin: Crud Controllers ==*/
-    // Create
-        Route::get('/admin/add_shoe_form', 'ShoeController@add_shoe_form')->name('show_shoe_add_form');
-        Route::post('/admin/save_shoe_form', 'ShoeController@save_shoe_form')->name('save_shoe_form');
-    // Retrieve
-        // Route::get('/admin/retrieve_shoe/{id}', 'shoe_crud_controller')->name('admin_retrieve_item');
-    // Update
-        // Route::patch('/admin/update_shoe_details/{id}', 'shoe_crud_controller')->name('admin_update_form');
-    // Delete
-        // Route::delete('/admin/delete_shoe/{id}', 'shoe_crud_controller')->name('admin_delete_item');
+    Route::resource('/home/dashboard/admin/product-inventory', 'ShoeController');
 
   /*==  Admin: Show Registered Users ==*/ 
     // Route::get('', '')->name('');

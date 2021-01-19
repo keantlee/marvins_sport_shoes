@@ -5,6 +5,7 @@
 {{-- META TAGS --}}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 
 {{-- FAVICON --}}
 
@@ -19,13 +20,15 @@
 <link rel="stylesheet" href="{{asset('/css/product_navbar.css')}}">
 <link rel="stylesheet" href="{{asset('/css/product_card.css')}}">
 <link rel="stylesheet" href="{{asset('/css/product_form.css')}}">
+<link rel="stylesheet" href="{{asset('/css/product_view_details.css')}}">
 <link rel="stylesheet" href="{{asset('/css/modal_cards.css')}}">
 <link rel="stylesheet" href="{{asset('/css/services.css')}}">
 <link rel="stylesheet" href="{{asset('/css/admin_dashboard.css')}}">
+<link rel="stylesheet" href="{{asset('/css/admin_inventory_management_system.css')}}">
 <link rel="stylesheet" href="{{asset('/css/admin_dashboard_navbar.css')}}">
 <link rel="stylesheet" href="{{asset('/css/admin_dashboard_sidebar.css')}}">
 <link rel="stylesheet" href="{{asset('/css/admin_dashboard_footer.css')}}">
-
+<link rel="stylesheet" href="{{asset('/css/validation_style.css')}}">
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -36,15 +39,15 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-{{-- JQuery --}}
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-</script>
-
-{{-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> --}}
-
 <script src="https://kit.fontawesome.com/7ad70736cf.js" crossorigin="anonymous"></script>
+
+{{-- jQuery Validation library --}}
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.min.js"></script>
 
 {{-- CUSTOMIZE JS --}}
 <script src="{{asset('/js/sidebar.js')}}"></script>
+<script src="{{asset('/js/tab_image_list.js')}}"></script>
+<script src="{{asset('/js/quantity_button.js')}}"></script>

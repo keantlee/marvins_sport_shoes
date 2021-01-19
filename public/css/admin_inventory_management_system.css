@@ -1,0 +1,23 @@
+.img-custom-size{
+    width: 100px;
+    height: 100px;
+}
+
+.table-custom{
+    text-align: center;
+}
+
+#load-first-image{
+    width: 100px;
+    height: 100px;
+}
+
+.load-second-image{
+    width: 100px;
+    height: 100px;
+}
+
+.load-third-image{
+    width: 100px;
+    height: 100px;
+}
